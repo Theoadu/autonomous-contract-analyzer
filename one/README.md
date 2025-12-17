@@ -281,14 +281,14 @@ brew install poppler
 apt-get install poppler-utils
 
 # Generate test contracts
-python src/generate_test_contract.py
+uv run src/generate_test_contract.py
 ```
 
 ## 📖 Usage
 
 ### Basic Command
 ```bash
-python src/main.py \
+uv run src/main.py \
   --original data/test_contracts/original_1.jpg \
   --amendment data/test_contracts/amendment_1.jpg \
   --contract-id contract-001
@@ -474,7 +474,7 @@ Contributions are welcome! Areas that need attention:
 
 ## 📄 License
 
-[Add your license here]
+Theophilus Adukpo
 
 ## 🙏 Acknowledgments
 
@@ -482,6 +482,7 @@ Built with:
 - OpenAI GPT-4o and GPT-4o-mini
 - LangChain framework
 - Langfuse observability platform
+- Langsmith observability platform
 - The Python open-source community
 
 ---
