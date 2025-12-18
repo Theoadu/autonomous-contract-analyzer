@@ -370,7 +370,7 @@ Langfuse integration provided excellent visibility into the multi-agent pipeline
 ### 5. **Fast Package Management**
 Using `uv` for dependency management significantly improved installation speed and reproducibility compared to traditional pip workflows.
 
-## ❌ What Went Wrong / Challenges
+## Challenges
 
 ### 1. **API Cost Concerns**
 - GPT-4o for image parsing is expensive (~$0.01-0.05 per image depending on resolution)
