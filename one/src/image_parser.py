@@ -39,4 +39,3 @@ def parse_contract_image(image_path: str, client: OpenAI) -> str:
         temperature=0.0,
     )
     return response.output_text.strip()
-    # return response.choices[0].message.content.strip()
